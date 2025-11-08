@@ -1,0 +1,20 @@
+/* Add to your existing CSS */
+
+/* Active navigation link */
+.nav-links a.active {
+    color: var(--primary);
+}
+
+.nav-links a.active::after {
+    width: 100%;
+}
+
+/* Animation for timeline items */
+.timeline-item {
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* Animation for stats */
+.stat h4 {
+    transition: all 0.5s ease;
+}
